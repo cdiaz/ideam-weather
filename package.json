@@ -1,0 +1,31 @@
+{
+  "name": "ideam-weather",
+  "description": "Alarmas y Pronósticos climatológicos para el territorio Colombiano suministrados por el IDEAM",
+  "version": "0.1.0",
+  "author": "Cristiam Diaz <cdiaz@quantux.co>",
+  "maintainers": [
+    "cdiaz <cdiaz@quantux.co>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdiaz/ideam-weather.git"
+  },
+  "keywords": [
+    "weather forecast",
+    "clima colombia",
+    "pronosticos del clima",
+    "monitoreo del clima",
+    "ideam",
+    "meteorologia"
+  ],
+  "dependencies": {
+    "caller-id": "^0.1.0",
+    "soap": "^0.13.0",
+    "xml2js": "^0.4.16"
+  },
+  "main": "./lib/ideam-weather",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.6.12"
+  }
+}
