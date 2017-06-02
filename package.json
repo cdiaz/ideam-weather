@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "caller-id": "^0.1.0",
-    "soap": "^0.13.0",
+    "soap": "^0.19.1",
     "xml2js": "^0.4.16"
   },
   "main": "./lib/ideam-weather",
